@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "353032766176",
+    "firebase_url": "https://wordy-97cfb-default-rtdb.firebaseio.com",
+    "project_id": "wordy-97cfb",
+    "storage_bucket": "wordy-97cfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353032766176:android:03da55e97f469bb01d4685",
+        "android_client_info": {
+          "package_name": "com.example.harveywordy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBckNNjIfgIb0njGMpcxY2I3G5RnkSsx5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

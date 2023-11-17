@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6C6C6"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/addWordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="#2196F3"
+        android:text="Add Word"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/diplomata"
+        android:text="Wordy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="250dp"
+        android:layout_height="325dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        app:columnCount="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:rowCount="6">
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+
+        <EditText style="@style/letterInput" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="174dp"
+        android:backgroundTint="#27B535"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="164dp"
+        android:backgroundTint="#EA0E0E"
+        android:text="Clear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#EF7F35"
+        android:text="Restart"
+        app:layout_constraintBottom_toTopOf="@+id/clearButton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
